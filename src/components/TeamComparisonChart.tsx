@@ -1,4 +1,3 @@
-
 import { Team } from "@/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
@@ -17,7 +16,6 @@ interface TeamComparisonChartProps {
 }
 
 const TeamComparisonChart = ({ team1, team2 }: TeamComparisonChartProps) => {
-  // Mock data - in a real app, this would come from your API
   const data = [
     {
       attribute: "Batting",
