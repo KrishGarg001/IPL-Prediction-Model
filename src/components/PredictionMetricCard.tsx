@@ -1,4 +1,3 @@
-
 import { PredictionMetric } from "@/types";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
