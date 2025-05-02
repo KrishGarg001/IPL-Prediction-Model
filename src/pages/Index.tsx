@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   Activity, 
@@ -35,7 +34,6 @@ const Index = () => {
       
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col gap-6">
-          {/* Header */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">IPL 2023 Predictions</h1>
@@ -53,7 +51,6 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Stats Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <StatsCard 
               title="Upcoming Matches" 
@@ -83,7 +80,6 @@ const Index = () => {
             />
           </div>
 
-          {/* Upcoming Matches */}
           <div>
             <h2 className="text-xl font-bold mb-4 flex items-center">
               <Calendar className="h-5 w-5 mr-2 text-ipl-blue" />
@@ -96,7 +92,6 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Team Comparison and Players */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2">
               <h2 className="text-xl font-bold mb-4 flex items-center">
@@ -120,7 +115,6 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Prediction Metrics */}
           <div>
             <h2 className="text-xl font-bold mb-4">Prediction Accuracy Metrics</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
