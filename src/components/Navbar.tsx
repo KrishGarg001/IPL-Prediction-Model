@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown, Trophy, BarChart3, Users, CalendarDays, TrendingUp } from "lucide-react";
