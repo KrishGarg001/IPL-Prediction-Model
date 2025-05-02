@@ -1,1 +1,0 @@
-# IPL-Prediction-Model---Technical-Assessment-Submission
