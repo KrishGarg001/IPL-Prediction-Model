@@ -1,4 +1,3 @@
-
 import { Match } from "@/types";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -12,7 +11,6 @@ interface MatchPredictionCardProps {
 const MatchPredictionCard = ({ match }: MatchPredictionCardProps) => {
   const { team1, team2, venue, date, time, predictedWinner, winProbability } = match;
 
-  // Format date
   const parsedDate = parse(date, "yyyy-MM-dd", new Date());
   const formattedDate = format(parsedDate, "dd MMM yyyy");
 
