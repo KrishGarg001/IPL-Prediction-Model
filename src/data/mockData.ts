@@ -1,6 +1,4 @@
-
 import { Team, Player, Match, PredictionMetric } from "../types";
-
 export const teams: Team[] = [
   {
     id: 1,
@@ -156,8 +154,8 @@ export const players: Player[] = [
 export const upcomingMatches: Match[] = [
   {
     id: 1,
-    team1: teams[0], // MI
-    team2: teams[1], // CSK
+    team1: teams[0],
+    team2: teams[1],
     venue: "Wankhede Stadium, Mumbai",
     date: "2023-04-10",
     time: "19:30",
@@ -169,8 +167,8 @@ export const upcomingMatches: Match[] = [
   },
   {
     id: 2,
-    team1: teams[2], // RCB
-    team2: teams[3], // KKR
+    team1: teams[2],
+    team2: teams[3],
     venue: "M. Chinnaswamy Stadium, Bengaluru",
     date: "2023-04-11",
     time: "19:30",
@@ -182,8 +180,8 @@ export const upcomingMatches: Match[] = [
   },
   {
     id: 3,
-    team1: teams[4], // DC
-    team2: teams[5], // RR
+    team1: teams[4],
+    team2: teams[5],
     venue: "Arun Jaitley Stadium, Delhi",
     date: "2023-04-12",
     time: "15:30",
@@ -195,8 +193,8 @@ export const upcomingMatches: Match[] = [
   },
   {
     id: 4,
-    team1: teams[6], // PBKS
-    team2: teams[7], // SRH
+    team1: teams[6],
+    team2: teams[7],
     venue: "Punjab Cricket Association Stadium, Mohali",
     date: "2023-04-13",
     time: "19:30",
