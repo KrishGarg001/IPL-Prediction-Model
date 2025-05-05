@@ -110,3 +110,9 @@ All dependencies are listed in `requirements.txt`.
 
 * IPL data sourced from Kaggle
 * Built as part of a technical assessment
+
+## 📬 Contact
+
+- **Author:** Krish Garg 
+- **GitHub:** [@KrishGarg001](https://github.com/KrishGarg001)  
+- **Email:** zexuxkrish123@gmail.com  
